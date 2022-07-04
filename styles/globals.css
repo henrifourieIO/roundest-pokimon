@@ -4,6 +4,8 @@
 @tailwind utilities;
 
 
+
 body {
-  background-color: #121212;
+  @apply text-white bg-gray-900;
+  overscroll-behavior-y: none;
 }
